@@ -1,0 +1,515 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-12T19:39:17.652Z",
+        "line": 3,
+        "name": "Conexion a MySql 4 : Sin datos",
+        "description": "",
+        "id": "pruebas-de-conexion-a-bd-local-y-testeo-del-sitio-con-selenium-y-cucumber-con-la-nomenclatura-de-gherkin;conexion-a-mysql-4-:-sin-datos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2821100,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Conectar como Username: \"\" y Password: \"\" a la base de datos MySql: \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 68
+                }
+              ],
+              "location": "TestSteps.conectarBD(String,String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T19:39:17.717Z",
+        "line": 6,
+        "name": "Conexion a MySql 3 : Utilizando Username y Password incorrectos, URL Vacia",
+        "description": "",
+        "id": "pruebas-de-conexion-a-bd-local-y-testeo-del-sitio-con-selenium-y-cucumber-con-la-nomenclatura-de-gherkin;conexion-a-mysql-3-:-utilizando-username-y-password-incorrectos--url-vacia",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 505300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Conectar como Username: \"user\" y Password: \"pass\" a la base de datos MySql: \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 76
+                }
+              ],
+              "location": "TestSteps.conectarBD(String,String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T19:39:17.721Z",
+        "line": 9,
+        "name": "Conexion a MySql 2 : Utilizando Username y Password incorrectos, URL Correcta",
+        "description": "",
+        "id": "pruebas-de-conexion-a-bd-local-y-testeo-del-sitio-con-selenium-y-cucumber-con-la-nomenclatura-de-gherkin;conexion-a-mysql-2-:-utilizando-username-y-password-incorrectos--url-correcta",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1003600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Conectar como Username: \"user\" y Password: \"pass\" a la base de datos MySql: \"jdbc:mysql://localhost:3306/clinica\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"jdbc:mysql://localhost:3306/clinica\"",
+                  "offset": 76
+                }
+              ],
+              "location": "TestSteps.conectarBD(String,String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T19:39:17.725Z",
+        "line": 12,
+        "name": "Conexion a MySql 1 : Todos los datos correctos",
+        "description": "",
+        "id": "pruebas-de-conexion-a-bd-local-y-testeo-del-sitio-con-selenium-y-cucumber-con-la-nomenclatura-de-gherkin;conexion-a-mysql-1-:-todos-los-datos-correctos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 490500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Conectar como Username: \"root\" y Password: \"root\" a la base de datos MySql: \"jdbc:mysql://localhost:3306/clinica\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"root\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"root\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"jdbc:mysql://localhost:3306/clinica\"",
+                  "offset": 76
+                }
+              ],
+              "location": "TestSteps.conectarBD(String,String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T19:39:17.728Z",
+        "line": 15,
+        "name": "Conectar al Sitio 3 : Intenta iniciar sesion sin credenciales.",
+        "description": "",
+        "id": "pruebas-de-conexion-a-bd-local-y-testeo-del-sitio-con-selenium-y-cucumber-con-la-nomenclatura-de-gherkin;conectar-al-sitio-3-:-intenta-iniciar-sesion-sin-credenciales.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 460300,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Abrir navegador",
+            "match": {
+              "location": "TestSteps.abrir_navegador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 322100,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "ingresa Username \"\" y Password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 31
+                }
+              ],
+              "location": "TestSteps.ingresa_Username_y_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 480500,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "inicia sesion",
+            "match": {
+              "location": "TestSteps.inicia_sesion()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 468300,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Cerrar navegador",
+            "match": {
+              "location": "TestSteps.cerrar_navegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T19:39:17.733Z",
+        "line": 21,
+        "name": "Conectar al Sitio 2 : Intenta iniciar sesion con credenciales incorrectas.",
+        "description": "",
+        "id": "pruebas-de-conexion-a-bd-local-y-testeo-del-sitio-con-selenium-y-cucumber-con-la-nomenclatura-de-gherkin;conectar-al-sitio-2-:-intenta-iniciar-sesion-con-credenciales-incorrectas.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 417300,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Abrir navegador",
+            "match": {
+              "location": "TestSteps.abrir_navegador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 576300,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "ingresa Username \"userX\" y Password \"passX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userX\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"passX\"",
+                  "offset": 36
+                }
+              ],
+              "location": "TestSteps.ingresa_Username_y_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 383800,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "inicia sesion",
+            "match": {
+              "location": "TestSteps.inicia_sesion()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 261400,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Cerrar navegador",
+            "match": {
+              "location": "TestSteps.cerrar_navegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T19:39:17.738Z",
+        "line": 27,
+        "name": "Conectar al Sitio 1 : Inicia sesion con credenciales validas.",
+        "description": "",
+        "id": "pruebas-de-conexion-a-bd-local-y-testeo-del-sitio-con-selenium-y-cucumber-con-la-nomenclatura-de-gherkin;conectar-al-sitio-1-:-inicia-sesion-con-credenciales-validas.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 361300,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Abrir navegador",
+            "match": {
+              "location": "TestSteps.abrir_navegador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 562800,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "ingresa Username \"user\" y Password \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 35
+                }
+              ],
+              "location": "TestSteps.ingresa_Username_y_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 284400,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "inicia sesion",
+            "match": {
+              "location": "TestSteps.inicia_sesion()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 254900,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Cerrar navegador",
+            "match": {
+              "location": "TestSteps.cerrar_navegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T19:39:17.744Z",
+        "line": 33,
+        "name": "Conectar al sitio 0 : Inicia sesion, Agenda una hora medico veterinaria.",
+        "description": "",
+        "id": "pruebas-de-conexion-a-bd-local-y-testeo-del-sitio-con-selenium-y-cucumber-con-la-nomenclatura-de-gherkin;conectar-al-sitio-0-:-inicia-sesion--agenda-una-hora-medico-veterinaria.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 314000,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Abrir navegador",
+            "match": {
+              "location": "TestSteps.abrir_navegador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 321400,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "ingresa Username \"user\" y Password \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"pass\"",
+                  "offset": 35
+                }
+              ],
+              "location": "TestSteps.ingresa_Username_y_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 269800,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "inicia sesion",
+            "match": {
+              "location": "TestSteps.inicia_sesion()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 714000,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Agenda Hora RUT\u003d\"1281992\" NOMBRE\u003d\"PEDRO\" APELLIDO\u003d\"PEREZ\" DIRECCION\u003d\"CAMINO 44\" CORREO\u003d\"correo@elek.cl\" FONO\u003d\"222813223\" NOMBRE_MASCOTA\u003d\"LUNA\" TIPO\u003d\"Gato\" EDAD\u003d\"7\" HR\u003d\"15\" MN\u003d\"45\" DIA\u003d\"1\" MES\u003d\"Agosto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1281992\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"PEDRO\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"PEREZ\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"CAMINO 44\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"correo@elek.cl\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"222813223\"",
+                  "offset": 109
+                },
+                {
+                  "val": "\"LUNA\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"Gato\"",
+                  "offset": 148
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 160
+                },
+                {
+                  "val": "\"15\"",
+                  "offset": 167
+                },
+                {
+                  "val": "\"45\"",
+                  "offset": 175
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 184
+                },
+                {
+                  "val": "\"Agosto\"",
+                  "offset": 192
+                }
+              ],
+              "location": "TestSteps.Agenda_hora(String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282400,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Reservar Hora",
+            "match": {
+              "location": "TestSteps.reservar_hora()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 270600,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "Cerrar navegador",
+            "match": {
+              "location": "TestSteps.cerrar_navegador()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Pruebas de conexion a BD local y testeo del sitio con Selenium y Cucumber con la nomenclatura de Gherkin",
+    "description": "",
+    "id": "pruebas-de-conexion-a-bd-local-y-testeo-del-sitio-con-selenium-y-cucumber-con-la-nomenclatura-de-gherkin",
+    "keyword": "Feature",
+    "uri": "file:features/MyTest.feature",
+    "tags": []
+  }
+]

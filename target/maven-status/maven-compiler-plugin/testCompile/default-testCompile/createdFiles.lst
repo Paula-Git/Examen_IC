@@ -1,0 +1,4 @@
+TestJunit\ConexionBD.class
+TestRunner\Runner.class
+TestJunit\TestConexionBD.class
+TestDefinition\TestSteps.class

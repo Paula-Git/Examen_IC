@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="0.081521">
+    <testcase classname="Pruebas de conexion a BD local y testeo del sitio con Selenium y Cucumber con la nomenclatura de Gherkin" name="Conexion a MySql 4 : Sin datos" time="0.055412">
+        <system-out><![CDATA[When Conectar como Username: "" y Password: "" a la base de datos MySql: "".skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Pruebas de conexion a BD local y testeo del sitio con Selenium y Cucumber con la nomenclatura de Gherkin" name="Conexion a MySql 3 : Utilizando Username y Password incorrectos, URL Vacia" time="0.00295">
+        <system-out><![CDATA[When Conectar como Username: "user" y Password: "pass" a la base de datos MySql: "".skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Pruebas de conexion a BD local y testeo del sitio con Selenium y Cucumber con la nomenclatura de Gherkin" name="Conexion a MySql 2 : Utilizando Username y Password incorrectos, URL Correcta" time="0.003262">
+        <system-out><![CDATA[When Conectar como Username: "user" y Password: "pass" a la base de datos MySql: "jdbc:mysql://localhost:3306/clinica".skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Pruebas de conexion a BD local y testeo del sitio con Selenium y Cucumber con la nomenclatura de Gherkin" name="Conexion a MySql 1 : Todos los datos correctos" time="0.001891">
+        <system-out><![CDATA[When Conectar como Username: "root" y Password: "root" a la base de datos MySql: "jdbc:mysql://localhost:3306/clinica".skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Pruebas de conexion a BD local y testeo del sitio con Selenium y Cucumber con la nomenclatura de Gherkin" name="Conectar al Sitio 3 : Intenta iniciar sesion sin credenciales." time="0.004195">
+        <system-out><![CDATA[Given Abrir navegador.......................................................skipped
+When ingresa Username "" y Password ""......................................skipped
+Then inicia sesion..........................................................skipped
+And Cerrar navegador........................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Pruebas de conexion a BD local y testeo del sitio con Selenium y Cucumber con la nomenclatura de Gherkin" name="Conectar al Sitio 2 : Intenta iniciar sesion con credenciales incorrectas." time="0.004283">
+        <system-out><![CDATA[Given Abrir navegador.......................................................skipped
+When ingresa Username "userX" y Password "passX"............................skipped
+Then inicia sesion..........................................................skipped
+And Cerrar navegador........................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Pruebas de conexion a BD local y testeo del sitio con Selenium y Cucumber con la nomenclatura de Gherkin" name="Conectar al Sitio 1 : Inicia sesion con credenciales validas." time="0.004329">
+        <system-out><![CDATA[Given Abrir navegador.......................................................skipped
+When ingresa Username "user" y Password "pass"..............................skipped
+Then inicia sesion..........................................................skipped
+And Cerrar navegador........................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Pruebas de conexion a BD local y testeo del sitio con Selenium y Cucumber con la nomenclatura de Gherkin" name="Conectar al sitio 0 : Inicia sesion, Agenda una hora medico veterinaria." time="0.005199">
+        <system-out><![CDATA[Given Abrir navegador.......................................................skipped
+When ingresa Username "user" y Password "pass"..............................skipped
+Then inicia sesion..........................................................skipped
+When Agenda Hora RUT="1281992" NOMBRE="PEDRO" APELLIDO="PEREZ" DIRECCION="CAMINO 44" CORREO="correo@elek.cl" FONO="222813223" NOMBRE_MASCOTA="LUNA" TIPO="Gato" EDAD="7" HR="15" MN="45" DIA="1" MES="Agosto".skipped
+Then Reservar Hora..........................................................skipped
+And Cerrar navegador........................................................skipped
+]]></system-out>
+    </testcase>
+</testsuite>
